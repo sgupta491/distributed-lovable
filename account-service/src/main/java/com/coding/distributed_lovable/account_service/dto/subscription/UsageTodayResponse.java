@@ -1,0 +1,10 @@
+package com.coding.distributed_lovable.account_service.dto.subscription;
+
+public record UsageTodayResponse(
+        Integer tokensUsed,
+        Integer tokensLimit,
+        Integer previewsLimit,
+        Integer previewsRunning
+        ) {
+
+}
